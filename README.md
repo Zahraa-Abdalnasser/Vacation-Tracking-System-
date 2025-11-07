@@ -44,8 +44,8 @@ The logged in employee must have some balance to send a new vaction requist
 The employee should have access to a visual calendar 
 to help select and compare selected dates
  
-
-
+# Sequence diagram
+![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/VTS%20Sequence%20Diagram.drawio.svg)
 
 
 
