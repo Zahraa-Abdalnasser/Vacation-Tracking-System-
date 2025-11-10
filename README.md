@@ -56,5 +56,4 @@ to help select and compare selected dates
 
 # Cancelation Diagrams 
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Cancel%20flowChart.drawio.svg)
-
-
+![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Cancel%20Seq%20Diagram.drawio.svg)
