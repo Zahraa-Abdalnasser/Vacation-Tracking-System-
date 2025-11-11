@@ -47,8 +47,16 @@ to help select and compare selected dates
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/flowchart.svg)
 # Manager FlowChart
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/managerFlowchart.svg)
-# Psudocode 
+# Pseudo code 
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/VTS%20Psudocode.drawio.svg)
+
+# A question ?? 
+-  What if we need to have in the future another status like HR_Pending, HR_Approval with minimum change?
+  The Answer is adding a new HR Response function and updateing the Vacation Request by adding an HR_response column .
+
+# HR Approval Pseudo code 
+![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/HR%20Response%20pseudo%20code%20.drawio.svg)
+
 # Sequence diagram
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/VTS%20Sequence%20Diagram.drawio.svg)
 # Data Model
@@ -65,3 +73,5 @@ to help select and compare selected dates
 
 # Edit Pending Request Sequence Diagram
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Edit%20Sequence%20Diagram.drawio.svg)
+
+
