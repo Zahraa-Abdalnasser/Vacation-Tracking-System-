@@ -54,10 +54,14 @@ to help select and compare selected dates
 # Data Model
 ![Diagram](https://github.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/blob/main/data%20model.jpeg)
 
-# Cancelation Diagrams 
+# Cancelation FlowChart 
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Cancel%20flowChart.drawio.svg)
+
+# Cancelation Sequence Diagram 
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Cancel%20Seq%20Diagram.drawio.svg)
 
-# Edit Pending Request Diagrams 
+# Edit Pending Request FlowChart 
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Edit%20pending%20Request%20Flowchart%20.drawio.svg)
 
+# Edit Pending Request Sequence Diagram
+![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/Edit%20Sequence%20Diagram.drawio.svg)
