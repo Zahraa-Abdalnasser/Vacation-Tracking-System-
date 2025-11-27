@@ -47,9 +47,9 @@ to help select and compare selected dates
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/flowchart.svg)
 # Manager FlowChart
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/managerFlowchart.svg)
-# Pseudo code 
+# Manage time Pseudo code 
 ```
-# Login function  
+# Login 
 BEGIN
 SELECT VTS from portal page 
 INPUT username, password 
@@ -86,7 +86,17 @@ END
   The Answer is adding a new HR Response function and updateing the Vacation Request by adding an HR_response column .
 
 # HR Approval Pseudo code 
-![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/HR%20Response%20pseudo%20code%20.drawio.svg)
+```
+BEGIN 
+SELECT request 
+IF request.Manager_approved is true THEN 
+CHANAGE request.status to "APPROVED" 
+NOTIFY Employee and CHANGE request.Hr_approved to "true"
+ELSE 
+NOTIFY Employee and CHANGE request.status to "Rejected" and SET request.Hr_approved to "false"
+END IF 
+END
+```
 
 # Sequence diagram
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/VTS%20Sequence%20Diagram.drawio.svg)
