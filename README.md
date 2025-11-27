@@ -48,7 +48,38 @@ to help select and compare selected dates
 # Manager FlowChart
 ![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/managerFlowchart.svg)
 # Pseudo code 
-![Diagram](https://raw.githubusercontent.com/Zahraa-Abdalnasser/Vacation-Tracking-System-/refs/heads/main/VTS%20Psudocode.drawio.svg)
+```
+# Login function  
+BEGIN
+SELECT VTS from portal page 
+INPUT username, password 
+IF username OR password is not true THEN
+PRINT " Incorrect credintials " 
+ELSE
+ OPEN dashboard PAGE 
+END IF
+END
+
+# Mangae time and send request
+
+BEGIN 
+DISPLAY Approved and Pending requests and their status 
+INPUT start_date , end_date , vacation_type 
+PRINT " Pendding request "
+NOTIFY Manager 
+END
+
+# Manager Response
+
+BEGIN 
+SELECT request 
+IF approved THEN 
+NOTIFY Employee and CHANGE request status to "Approved"
+ELSE 
+NOTIFY Employee and CHANGE request status to "Rejected"
+END IF 
+END 
+```
 
 # A question ?? 
 -  What if we need to have in the future another status like HR_Pending, HR_Approval with minimum change?
